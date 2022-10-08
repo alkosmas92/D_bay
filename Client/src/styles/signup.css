@@ -1,0 +1,10 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.formStyle{
+    background-color: coral;
+    display:flex;
+    flex-direction: column;
+    gap: 2;
+}

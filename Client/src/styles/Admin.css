@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.infoadmin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+  border-style: solid;
+
+}

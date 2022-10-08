@@ -1,0 +1,57 @@
+create item:
+ localhost:1234/auth/seller/27b8c4d3-5a13-4024-bb58-cc8559dda021/item
+
+{
+
+    "sellerid": "27b8c4d3-5a13-4024-bb58-cc8559dda021",
+    "name": "jeans",
+    "first_bid": 15 ,
+    "countryid": 2 ,
+    "categoryid": "24ce69bb-0dc4-4b1a-93ad-826a41854301",
+    "day": 10 ,
+    "month": 12,
+    "year": 2022,
+    "hour": 3 ,
+    "minute": 40,
+    "dayend": 29,
+    "monthend": 7,
+    "yearend": 2022,
+    "hourend": 3,
+    "minuteend": 40
+}
+
+create user:
+{
+            "username" : "kosmas",
+            "password" : "kosmas",
+            "password_check" : "kosmas",
+            "firstname" : "sssss",
+            "lastname" : "ffff",
+            "email" : "vvvvv",
+            "address" : "fffff",
+            "telephone" : 454,
+            "afm" : 64961
+}
+
+bid{
+    "itemid": "4d605493-770b-4b57-a0d8-5c25b0b8cd67",
+    "bidderid": "27b8c4d3-5a13-4024-bb58-cc8559dda021",
+    "amount": 25,
+
+}
+
+   itemid: '01097da4-cf2c-425a-91d4-609003109d15',
+   name: 'Book',
+   first_bid: 5,
+   sellerid: '9daa4045-211b-42d8-a614-f9a82d87696f',
+   countryid: 2,
+   started: 2023-09-20T03:40:00.000Z,
+   ends: 2023-10-18T03:40:00.000Z,
+   buy_price: 5,
+   location: undefined,
+   description: undefined,
+   currently: 5,
+   categoryid: undefined
+
+
+

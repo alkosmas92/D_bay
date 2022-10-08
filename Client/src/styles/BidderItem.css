@@ -1,0 +1,12 @@
+.infoItems{
+    background-color: chocolate;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
